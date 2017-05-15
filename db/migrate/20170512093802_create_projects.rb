@@ -6,7 +6,7 @@ class CreateProjects < ActiveRecord::Migration[5.1]
     	t.integer :area
     	t.string :facing
     	t.string :age_of_property
-    	t.attachment :image
+      t.integer :location_id
 
       t.timestamps
     end

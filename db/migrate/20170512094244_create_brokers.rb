@@ -4,6 +4,7 @@ class CreateBrokers < ActiveRecord::Migration[5.1]
     	t.string :first_name
     	t.string :last_name
     	t.string :email
+    	t.attachment :profile_picture
     	t.string :password_digest
 
       t.timestamps

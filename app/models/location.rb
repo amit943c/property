@@ -1,3 +1,3 @@
 class Location < ApplicationRecord
-	has_many :projects, :photos
+	has_many :projects
 end

@@ -1,3 +1,3 @@
 class Photo < ApplicationRecord
-	belongs_to :project, :location
+	belongs_to :project
 end

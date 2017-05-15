@@ -4,6 +4,7 @@ class CreateLocations < ActiveRecord::Migration[5.1]
     	t.string :city
     	t.string :state
     	t.string :country
+    	t.attachment :image
 
       t.timestamps
     end
